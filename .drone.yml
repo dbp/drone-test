@@ -5,3 +5,4 @@ deploy:
   bash:
     script:
       - echo "Running deploy"
+    branch: master
