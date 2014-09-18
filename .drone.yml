@@ -1,0 +1,7 @@
+image: dbp1/ghc-7.8.3-migrate-rivet
+script:
+  - echo "Running tests"
+deploy:
+  bash:
+    script:
+      - echo "Running deploy"
